@@ -123,9 +123,13 @@
   /*Работа с главной страницей*/
 
 
-.carousel-inner{
-    height: 600px;
-    overflow: hidden;
+.background{
+  /*height: 600px;
+  object-fit: fill;
+  background-attachment: fixed;
+  object-fit: contain;*/
+  background-size: cover;
+  width: 100%;
 }
 
 .about_us{
@@ -227,6 +231,7 @@
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     padding-top: 0.5rem;
+    font-size: 2ch;
   }
 
   .header{
@@ -249,6 +254,7 @@
     height: 3.2rem;
     text-decoration: none;
     margin-bottom: 5rem;
+    border: none;
   }
 
   .hight_header2{
@@ -257,10 +263,36 @@
   }
     
   .top_Contacts{
-      display: flex;
-      align-items: center;
-      font-size: 1.5ch;
-      
+    display: flex;
+    align-items: center;
+    font-size: 1.5ch;
+    border: none; 
+  }
+
+  .adress{
+    padding: 0.6rem;
+    border: none;
+
+}
+  
+  .phone{
+      padding: 0.6rem;
+      border: none;
+  }
+    
+  .email{
+      padding: 0.6rem;
+      border: none;
+  }
+
+  .wts{
+    padding: 0.6rem;
+    border: none;
+  }
+
+  .tlg{
+    padding: 0.6rem;
+    border: none;
   }
 
 
@@ -307,23 +339,24 @@
     background-color: #fdfeff;
   }
 
-  /*Animation*/
+  /*ANIMATION*/
 
   .content-slider {
-    width: 100%;
-    height: 660px;
+    width: 95%;
+    height: 500px;
   }
   
   .slider {
-    height: 600px;
-    width: 300px;
+    height: 450px;
+    width: 80%;
+    margin: 50px auto 0;
     overflow: visible;
     position: relative;
   }
   
   .mask {
     overflow: hidden;
-    height: 600px;
+    height: 450px;
   }
   
   .slider ul {
@@ -333,19 +366,16 @@
   }
   
   .slider li {
-    width: 400px;
-    height: 600px;
+    width: 80%;
+    height: 450px;
     position: absolute;
-    top: -700px;
+    top: -550px;
     list-style: none;
+    font-size: 2rem;
   }
   
   .slider .quote {
-    font-size: 40px;
+    font-size: 2rem;
   }
   
-  .slider .source {
-    font-size: 20px;
-    text-align: right;
-  }
 }

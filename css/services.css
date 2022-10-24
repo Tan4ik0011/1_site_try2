@@ -174,88 +174,100 @@
 @media screen and (min-device-width: 200px) and (max-device-width: 600px){
 
     .container1{
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
         padding-top: 0.5rem;
+        font-size: 2ch;
       }
     
-    .header_container{
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 2%;
-    margin-left: 0.1rem;
-    padding-right: 0.5rem;
-    }
-  
-    .header{
+      .header{
         font-family: 'PT Serif', serif;
         font-weight: 700;
         text-decoration-line: none;
         display: flex;
         flex-direction: column;
-    }
-  
+      }
     
-    .hight_header{
+      .header_container{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 2%;
+        margin-left: 0.1rem;
+        padding-right: 0.5rem;
+      }
+    
+      .hight_header{
         height: 3.2rem;
         text-decoration: none;
         margin-bottom: 5rem;
-    }
-  
-    .hight_header2{
+        border: none;
+      }
+    
+      .hight_header2{
         display: flex;
         flex-direction: column;
-    }
+      }
         
-    .top_Contacts{
+      .top_Contacts{
         display: flex;
         align-items: center;
         font-size: 1.5ch;
-        
-    }
+        border: none; 
+      }
     
-    .sots_seti{
+      .adress{
+        padding: 0.6rem;
+        border: none;
+    
+    }
+      
+      .phone{
+          padding: 0.6rem;
+          border: none;
+      }
+        
+      .email{
+          padding: 0.6rem;
+          border: none;
+      }
+    
+      .wts{
+        padding: 0.6rem;
+        border: none;
+      }
+    
+      .tlg{
+        padding: 0.6rem;
+        border: none;
+      }
+    
+    
+      .sots_seti{
         display: flex;
         justify-content: flex-start;
         align-items: center;
         text-decoration: none;
-    }
+      }
     
-    .low_header{
+      .low_header{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         font-size: 3rem;
         text-decoration: none;
         
-    }
+      }
     
-    .top_buttons{
+      .top_buttons{
         display: flex;
         flex-direction: column;
         gap: 0rem;
       }
     
-    
-    .nofoter{
-        
-        background-color: #1fb3b3;
-    }
-    
-    .whywe{
+      .services{
         display: flex;
         flex-direction: column;
-        gap: 0.0001rem;
-    }
-
-    .services{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 100%;
-        font-family: 'PT Serif', serif;
         font-size: 2ch;
-        gap: 1.5rem;
-      
       }
+
   }
