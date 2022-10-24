@@ -27,21 +27,23 @@
   font-weight: 700;
   text-decoration-line: none;
   border-bottom: 0.15rem solid #d6d8da;
+  display: block;
 }
-
-
 
 .hight_header{
   height: 3.2rem;
   display: flex;
-  justify-content: center;
   border-bottom: 0.15rem solid #d6d8da;
   text-decoration: none;
 }
 
+.header_container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hight_header2{
-  width: 1080px;
-  
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -54,6 +56,7 @@
   font-size: 1.5ch;
   
 }
+
 .pol.pol{
   text-decoration: none;
   color: #125064;
@@ -77,8 +80,8 @@
 }
 
 .sots_seti{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   text-decoration: none;
 }
@@ -96,14 +99,11 @@
 
 .low_header{
   display: flex;
-  justify-content: space-between;
-  font-size: 3rem;
-  text-decoration: none;
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+    justify-content: space-between;
+    font-size: 3rem;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .logo_in_head{
@@ -131,4 +131,84 @@
   font-weight: 700;
   font-size: 3ch;
   color: black;
+}
+
+
+
+
+@media screen and (min-device-width: 200px) and (max-device-width: 600px){
+
+  .container1{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+  }
+ 
+  .header_container{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    margin-left: 0.1rem;
+    padding-right: 0.5rem;
+  }
+
+  .header{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.hight_header{
+  height: 3.2rem;
+  text-decoration: none;
+  margin-bottom: 5rem;
+}
+
+.hight_header2{
+  display: flex;
+  flex-direction: column;
+}
+  
+.top_Contacts{
+    display: flex;
+    align-items: center;
+    font-size: 1.5ch;
+    
+}
+
+.sots_seti{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.low_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 3rem;
+  text-decoration: none;
+  
+}
+
+.top_buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.nofoter{
+  
+  background-color: #1fb3b3;
+}
+
+.whywe{
+  display: flex;
+  flex-direction: column;
+  gap: 0.0001rem;
+}
 }

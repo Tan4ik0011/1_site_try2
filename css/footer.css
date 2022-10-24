@@ -6,21 +6,13 @@
 
 .footer{
   display: flex;
-  justify-content: space-between;
-  
-}
-
-.left_footer{
-  display: flex;
-  justify-content: flex-start;
-  
+  justify-content:end;
 }
 
 .icon_foter{
-  
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  margin-right: 1rem;
 }
 
 .icon_foter1{
@@ -44,4 +36,15 @@
 
 .foter_cont{
   border-bottom: 0.15rem solid #619fdd;
+}
+
+
+
+@media screen and (min-device-width: 200px) and (max-device-width: 900px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+  }
+  
 }
