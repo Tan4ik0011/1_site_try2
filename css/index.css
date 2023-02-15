@@ -200,7 +200,7 @@ h1{
 .why{
   margin-top: 2ch;
   margin-bottom: 2ch;
-  margin-left: 38%;
+  margin-left: 28vw;;
 }
 .whywe{
   grid-template-columns: 1fr 1fr;
@@ -337,7 +337,7 @@ summary{
   }
 
   .nofoter{
-    
+    border-radius: 0;
     background-color: #1fb3b3;
   }
 
@@ -351,10 +351,17 @@ summary{
     display: flex;
     border-style: solid;
     border-color: rgb(158, 153, 153);
-    border-radius: 2rem;
+    border-radius: 1rem;
     border-width: 0.08rem;
     padding: 1rem;
     background-color: #fdfeff;
+  }
+
+  .plus{
+    width: 50vw;
+  }
+  .pic1{
+    padding-left: 25vw;
   }
 
   /*ANIMATION*/
