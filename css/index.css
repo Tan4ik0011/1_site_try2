@@ -13,6 +13,14 @@
   
 .body1{
     min-height: calc(100vh - 2rem);
+    justify-content: center;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 5vh;
+    font-weight: 600;
 }
   
 .map{
@@ -186,10 +194,11 @@ h1{
 .nofoter{
   display: flex;
   justify-content: center;
-  background: radial-gradient(ellipse, #FEFFFF, #e2e4e4);
+  /*background: radial-gradient(ellipse, #FEFFFF, #e2e4e4);*/
   padding: 2rem;
   border-radius: 1rem;
 }
+
 
 .back_whywe{
   background: radial-gradient(ellipse, #FEFFFF, #a4e4e4);
@@ -198,9 +207,9 @@ h1{
   
 }
 .why{
-  margin-top: 2ch;
-  margin-bottom: 2ch;
-  margin-left: 28vw;;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3vh;
 }
 .whywe{
   grid-template-columns: 1fr 1fr;
@@ -237,10 +246,43 @@ summary{
   font-size: 2ch;
 }
 
+@media screen and (min-device-width: 600px) and (max-device-width: 900px) {
+  .header{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-decoration-line: none;
+    border-bottom: 0.15rem solid #d6d8da;
+    display: block;
+    width: 100%;
+}
+  
+.hight_header{
+    height: 9vw;
+    display: flex;
+    border-bottom: 0.15rem solid #d6d8da;
+    text-decoration: none;
+}
 
-
-
-
+.header_container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.hight_header2{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+  
+.top_Contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3vh;
+    
+}
+}
 
 
 @media screen and (min-device-width: 200px) and (max-device-width: 600px){
@@ -251,7 +293,9 @@ summary{
     padding-top: 0.5rem;
     font-size: 2ch;
   }
-
+  .back{
+    display: none;
+  }
   .header{
     font-family: 'PT Serif', serif;
     font-weight: 700;
@@ -338,7 +382,7 @@ summary{
 
   .nofoter{
     border-radius: 0;
-    background-color: #1fb3b3;
+    /*background-color: #1fb3b3;*/
   }
 
   .whywe{
