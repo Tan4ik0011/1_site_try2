@@ -195,7 +195,7 @@ h1{
         font-weight: 700;
         text-decoration-line: none;
         display: flex;
-        height: 0;
+        
         flex-direction: column;
       }
     

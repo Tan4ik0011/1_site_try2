@@ -10,6 +10,9 @@
     font-family: 'PT Serif', serif;
     font-size: 2.8ch;
 }
+.name_str{
+  display:none;
+}
   
 .body1{
     min-height: calc(100vh - 2rem);
@@ -21,6 +24,9 @@
     font-family: 'PT Serif', serif;
     font-size: 5vh;
     font-weight: 600;
+}
+.text1{
+  display: none;
 }
   
 .map{
@@ -39,7 +45,7 @@
 }
   
 .hight_header{
-    height: 3.2rem;
+    height: 7vh;
     display: flex;
     border-bottom: 0.15rem solid #d6d8da;
     text-decoration: none;
@@ -142,6 +148,7 @@ h1{
   object-fit: contain;*/
   background-size: cover;
   width: 100%;
+  margin: 2vh;
 }
 
 .about_us{
@@ -245,8 +252,13 @@ h1{
 summary{
   font-size: 2ch;
 }
+#carouselExampleSlidesOnly{
+  display: none;
+}
+
 
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) {
+  
   .header{
     font-family: 'PT Serif', serif;
     font-weight: 700;
@@ -282,11 +294,20 @@ summary{
     font-size: 1.3vh;
     
 }
+#carouselExampleSlidesOnly{
+  display: none;
+}
+.name_str{
+  display: none;
+}
 }
 
 
 @media screen and (min-device-width: 200px) and (max-device-width: 600px){
   
+  #carouselExampleSlidesOnly{
+    display: flex;
+  }
   .container1{
     padding-left: 0.4rem;
     padding-right: 0.4rem;
@@ -412,7 +433,8 @@ summary{
 
   .content-slider {
     width: 95%;
-    height: 500px;
+    height: 40vh;
+    overflow: hidden;
   }
   
   .slider {
@@ -491,6 +513,11 @@ html {
   font-weight: normal;
   font-family: sans-serif;
   background-color: var(--home-bg-color);
+}
+.container1{
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-top: 0.5rem;
 }
 
 #ham-menu {
@@ -675,5 +702,48 @@ a {
 }
 .header_container{
   display: none;
+}
+.text1.text1{
+  margin-left: auto;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-size: 4vh;
+  font-weight: 600;
+ margin-right: 0;
+}
+p.text1{
+  margin-right: 0;
+  width: 100%;
+  margin-left: auto;
+}
+#carouselExampleSlidesOnly{
+  margin-bottom: 2vw;
+}
+.name_str{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  margin-top: 0;
+  font-family: 'PT Sans', serif;
+  font-weight: 700;
+  font-size: 3ch;
+  color: #125064;
+  width: 100%;
+  margin-top: 5vh;
+}
+.container1 {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-family: 'PT Serif', serif;
+  font-size: 2.8ch;
 }
 }
