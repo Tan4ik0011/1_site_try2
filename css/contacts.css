@@ -149,6 +149,9 @@ font-weight: 400;
 .ham-menu{
   display: none;
 }
+.name_str1{
+  display: none;
+}
 
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) {
   
@@ -193,6 +196,9 @@ font-weight: 400;
 }
 .background{
   margin-left: 0;
+}
+.name_str1{
+  display: none;
 }
 }
 
