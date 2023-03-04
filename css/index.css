@@ -67,7 +67,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 1.3vh;
+    font-size: 1.5vh;
     
 }
 h1{
@@ -85,17 +85,20 @@ h1{
 
 .adress{
     border-right: 0.1rem solid #d6d8da;
-    padding: 1.2vw;
+    padding: 0.7vw;
+    margin-top: 1vh;
 }
   
 .phone{
     border-right: 0.1rem solid #d6d8da;
-    padding: 0.6rem;
+    padding: 0.7vw;
+    margin-top: 1vh;
 }
   
 .email{
     border-right: 0.1rem solid #d6d8da;
-    padding: 0.6rem;
+    padding: 0.7vw;
+    margin-top: 1vh;
 }
   
 .sots_seti{
@@ -107,13 +110,14 @@ h1{
   
 .wts{
     border-right: 0.1rem solid #d6d8da;
-    border-left: 0.1rem solid #d6d8da;
-    padding: 0.6rem;
+    padding: 0.7vw;
+    margin-top: 1vh;
 }
   
 .tlg{
     border-right: 0.1rem solid #d6d8da;
-    padding: 0.6rem;
+    padding: 0.7vw;
+    margin-top: 1vh;
 }
   
 .low_header{
@@ -299,6 +303,9 @@ summary{
 }
 .name_str{
   display: none;
+}
+.background{
+  margin-left: 0;
 }
 }
 
@@ -555,7 +562,7 @@ label[for="ham-menu"] {
   flex-flow: column nowrap;
   justify-content: space-around;
   margin-top: 40px;
-  margin-left: 15rem;
+  margin-left: 50vw;
   padding: 20px;
   height: 30%;
 }
