@@ -328,6 +328,9 @@ summary{
     font-size: 2ch;
     font-family: 'PT Serif', serif;
   }
+  p{
+    font-family: 'PT Serif', serif;
+  }
   .back{
     display: none;
   }
