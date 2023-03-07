@@ -326,6 +326,7 @@ summary{
     padding-right: 0.4rem;
     padding-top: 0.5rem;
     font-size: 2ch;
+    font-family: 'PT Serif', serif;
   }
   .back{
     display: none;
