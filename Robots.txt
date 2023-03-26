@@ -1,0 +1,7 @@
+User-agent: Yandex
+Disallow: */contacts.html 
+
+User-agent : *
+Disallow: */contacts.html
+
+Sitemap:https://xn--h1alc2a0b.xn--p1ai/sitemap.xml
