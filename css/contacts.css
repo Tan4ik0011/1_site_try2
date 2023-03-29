@@ -58,8 +58,10 @@ margin-right: auto;
   
 }
 h1{
-font-size: 2.4ch;
+/*font-size: 2.4ch;*/
 font-weight: 400;
+font-size: 2ch;
+  font-weight: bold;
 }
 .pol.pol{
   text-decoration: none;
